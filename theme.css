@@ -1,0 +1,14 @@
+
+/*body css*/
+body{ overflow-x: auto;
+      overflow-y: scroll;
+    }
+.bg-light{
+         background-color: #FFFFFF!important;}
+
+/*navigation-link*/
+.nav-link{color: grey;}
+
+.nav-item{padding-left:50px;
+         
+         }
