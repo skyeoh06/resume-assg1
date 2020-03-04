@@ -12,3 +12,27 @@ body{ overflow-x: auto;
 .nav-item{padding-left:50px;
          
          }
+/* home page*/
+#home{
+      background-image: url("https://static.wixstatic.com/media/bba32c8486bc4596a99f61d320c20d4f.jpg");
+      height: 100vh;
+      min-height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 200px;
+     
+      }    
+#name{
+          font-size: 6rem;
+           color:white;
+           text-align: center;
+
+           
+      }
+#surname{
+            font-size: 6rem;
+             color:white;
+             text-align: left;
+             
+}         
