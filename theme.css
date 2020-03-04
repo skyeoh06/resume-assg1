@@ -67,3 +67,10 @@ body{ overflow-x: auto;
        letter-spacing: 3px;
        font-family: 'Playfair Display', ;
 }
+#summary{padding:100px;
+      text-align: left;
+      text-size-adjust:auto ;
+      color:grey;
+      font-style: italic;
+      font-family: "Times New Roman", Times, serif;
+}
