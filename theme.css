@@ -75,7 +75,107 @@ body{ overflow-x: auto;
       font-family: "Times New Roman", Times, serif;
 }
 
-/* Resume*/
+
+/* resume page*/
+#resume{height: 100vh;
+       min-height: 500px;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       padding:0;
+
+}
+#info-bg{min-height:350px;
+      min-width:250px;
+      background-image: url("https://ramacabs.com/wp-content/uploads/2017/10/contact-background.jpg");
+      background-size: cover;
+      text-align: center;
+      color:grey;
+     
+
+}
+
+.modal{color:olive;
+      font-style: italic;
+      font-family: "Times New Roman", Times, serif;
+     
+}
+.modal-body{background-color: Beige;
+
+
+}
+.modal-content{background-color: Beige;}
+#educations-bg{min-height:350px;
+           min-width:250px;
+           background-image: url("https://peoriaparks.org/wp-content/uploads/2017/12/BookCourt_iStock-690358116-e1515177346323.jpg");
+           background-size: cover;
+           text-align: center;
+           background-position: center;
+           
+
+
+}
+
+#certificates-bg{min-height:350px;
+             min-width: 250px;
+             background-image: url("https://thebiomedicalscientist.net/sites/default/files/media/image/2019/diploma_istock-495804756.jpg");
+             background-size: cover;
+             text-align: center;
+             
+}
+
+#employment-history-bg{min-height:350px;
+             min-width:250px;
+             background-image: url("https://image.freepik.com/free-photo/office-workplace-with-keypad-glasses_23-2147833237.jpg");
+             background-size: cover;
+             text-align: center;
+             
+
+            }
+  
+#skills-bg{min-height:350px;
+       min-width:250px;
+       background-image: url("https://image.freepik.com/free-photo/hand-holding-illuminated-light-bulb-with-outline-face-drawn-blackboard-with-idea-text_23-2147874059.jpg");
+       background-size: cover;
+       text-align: center;
+       
+
+}
+
+#projects-bg{min-height:350px;
+        min-width:250px;
+        background-image: url("https://static.vecteezy.com/system/resources/previews/000/338/734/original/vector-circuit-board-background.jpg");
+        background-size: cover;
+        text-align: center; 
+        
+
+}
+  
+ /* Bottom right text */
+.bottom-right-dark {
+      position: absolute;
+      bottom: 8px;
+      right: 100px;
+      width:100px;
+      height:50px;
+      font-size:xx-large;
+      color:#285e36;
+      border-style: none;
+      background-color: transparent;
+      border-color: transparent;
+    }
+.bottom-right-light {
+      position: absolute;
+      bottom: 8px;
+      right: 80px;
+      width:100px;
+      height:50px;
+      font-size:xx-large;
+      color: #ccac6c;
+      border-style: none;
+      background-color: transparent;
+      border-color: transparent;
+    }
 
 /* Connect page*/
 #connect{background-image: url("https://previews.123rf.com/images/pospelowa/pospelowa1703/pospelowa170300026/73765538-flores-secas-sobre-fondo-blanco-de-madera-fondo-de-pantalla.jpg");
