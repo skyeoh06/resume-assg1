@@ -1,19 +1,16 @@
-
 /*body css*/
 body{ overflow-x: auto;
       overflow-y: scroll;
-}
+    }
 .bg-light{
-         background-color: #FFFFFF!important;
-}
+         background-color: #FFFFFF!important;}
 
-/*navigation-link*/
-.nav-link{color: grey;
-}
+/*navigation css*/
+.nav-link{color: grey;}
 
 .nav-item{padding-left:50px;
          
-}
+         }
 /* home page*/
 #home{
       background-image: url("https://static.wixstatic.com/media/bba32c8486bc4596a99f61d320c20d4f.jpg");
@@ -37,12 +34,12 @@ body{ overflow-x: auto;
              color:white;
              text-align: left;
              
-}
+} 
 #intro{ font-size:xx-large;
-         color:white;
-         text-align:center;
-}         
-/*--about page*/
+      color:white;
+      text-align:center;
+}  
+/* about page*/
 #about{background-image: url("https://static.wixstatic.com/media/11062b_2042bb7351284f0f982e4787d37415e6f000.jpg/v1/fill/w_245,h_138,al_c,q_80,usm_0.33_1.00_0.00,blur_2/11062b_2042bb7351284f0f982e4787d37415e6f000.jpg");
       height: 100vh;
       min-height: 500px;
@@ -52,6 +49,8 @@ body{ overflow-x: auto;
       text-align: center;
       
       }
+        
+         
 .col-sm-5{background-image: url("https://images.wallpaperscraft.com/image/flower_bloom_branch_162334_3840x2160.jpg");
           background-size: cover;
           min-height:500px;
@@ -76,8 +75,6 @@ body{ overflow-x: auto;
       font-style: italic;
       font-family: "Times New Roman", Times, serif;
 }
-
-
 /* resume page*/
 #resume{height: 100vh;
        min-height: 500px;
@@ -94,6 +91,7 @@ body{ overflow-x: auto;
       text-align: center;
       color:grey;
      
+
 }
 
 .modal{color:olive;
@@ -102,14 +100,17 @@ body{ overflow-x: auto;
      
 }
 .modal-body,.modal-content{background-color: Beige;
-}
 
+
+}
 #educations-bg{min-height:350px;
            min-width:250px;
            background-image: url("https://peoriaparks.org/wp-content/uploads/2017/12/BookCourt_iStock-690358116-e1515177346323.jpg");
            background-size: cover;
            text-align: center;
            background-position: center;
+           
+
 
 }
 
@@ -127,7 +128,8 @@ body{ overflow-x: auto;
              background-size: cover;
              text-align: center;
              
-}
+
+            }
   
 #skills-bg{min-height:350px;
        min-width:250px;
@@ -135,6 +137,7 @@ body{ overflow-x: auto;
        background-size: cover;
        text-align: center;
        
+
 }
 
 #projects-bg{min-height:350px;
@@ -143,6 +146,7 @@ body{ overflow-x: auto;
         background-size: cover;
         text-align: center; 
         
+
 }
   
  /* Bottom right text */
@@ -157,8 +161,7 @@ body{ overflow-x: auto;
       border-style: none;
       background-color: transparent;
       border-color: transparent;
-}
-
+    }
 .bottom-right-light {
       position: absolute;
       bottom: 8px;
@@ -170,8 +173,7 @@ body{ overflow-x: auto;
       border-style: none;
       background-color: transparent;
       border-color: transparent;
-}
-
+    }
 /* Connect page*/
 #connect{background-image: url("https://previews.123rf.com/images/pospelowa/pospelowa1703/pospelowa170300026/73765538-flores-secas-sobre-fondo-blanco-de-madera-fondo-de-pantalla.jpg");
       height: 100vh;
@@ -182,7 +184,7 @@ body{ overflow-x: auto;
 }
 #contact{border-width: 15px;
       border-style: solid;
-      border-color:#ad9f87;;
+      border-color:#ad9f87;
       text-align: center;
       text-size-adjust:auto ;
       height:200px;
@@ -201,7 +203,5 @@ form{
       border-style: dotted;
       border-color: brown;
       color:brown;
-
 }
-.button{color:brown;
-}
+.button{color:brown;}
