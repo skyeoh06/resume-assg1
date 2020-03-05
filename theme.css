@@ -74,3 +74,37 @@ body{ overflow-x: auto;
       font-style: italic;
       font-family: "Times New Roman", Times, serif;
 }
+
+/* Resume*/
+
+/* Connect page*/
+#connect{background-image: url("https://previews.123rf.com/images/pospelowa/pospelowa1703/pospelowa170300026/73765538-flores-secas-sobre-fondo-blanco-de-madera-fondo-de-pantalla.jpg");
+      height: 100vh;
+      min-height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+#contact{border-width: 15px;
+      border-style: solid;
+      border-color: white;
+      text-align: center;
+      text-size-adjust:auto ;
+      height:200px;
+      width:800px;
+      color: rgb(46, 88, 46);
+      letter-spacing: 3px;
+      font-family: 'Playfair Display', ;
+      font-size: 6rem;
+      background-image: url("https://static.vecteezy.com/system/resources/previews/000/129/669/non_2x/vector-natural-paper-texture-background.jpg");
+
+}
+form{ 
+      font-family: 'Playfair Display', ;
+      width:800px;
+      border-width: 5px;
+      border-style: dotted;
+      border-color: brown;
+      color:brown;
+}
+.button{color:brown;}
