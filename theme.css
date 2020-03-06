@@ -13,7 +13,7 @@ body{ overflow-x: auto;
          }
 /* home page*/
 #home{
-      background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/home-flakes.jpg");
+      background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/home-flakes.jpg");
       height: 100vh;
       min-height: 500px;
       background-position: center;
@@ -40,7 +40,7 @@ body{ overflow-x: auto;
       text-align:center;
 }  
 /* about page*/
-#about{background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/About-bg.jpg");
+#about{background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/About-bg.jpg");
       height: 100vh;
       min-height: 500px;
       background-position: center;
@@ -51,7 +51,7 @@ body{ overflow-x: auto;
       }
         
          
-.col-sm-5{background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/flower_bloom_about.jpg");
+.col-sm-5{background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/flower_bloom_about.jpg");
           background-size: cover;
           min-height:500px;
 
@@ -86,7 +86,7 @@ body{ overflow-x: auto;
 }
 #info-bg{min-height:350px;
       min-width:250px;
-      background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/resume-info-bg.jpg");
+      background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/resume-info-bg.jpg");
       background-size: cover;
       text-align: center;
       color:grey;
@@ -105,7 +105,7 @@ body{ overflow-x: auto;
 }
 #educations-bg{min-height:350px;
            min-width:250px;
-           background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/resume-education-bg.jpg");
+           background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/resume-education-bg.jpg");
            background-size: cover;
            text-align: center;
            background-position: center;
@@ -116,7 +116,7 @@ body{ overflow-x: auto;
 
 #certificates-bg{min-height:350px;
              min-width: 250px;
-             background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/resume-certificate-bg.jpg");
+             background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/resume-certificate-bg.jpg");
              background-size: cover;
              text-align: center;
              
@@ -124,7 +124,7 @@ body{ overflow-x: auto;
 
 #employment-history-bg{min-height:350px;
              min-width:250px;
-             background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/resume-employment-bg.jpg");
+             background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/resume-employment-bg.jpg");
              background-size: cover;
              text-align: center;
              
@@ -133,7 +133,7 @@ body{ overflow-x: auto;
   
 #skills-bg{min-height:350px;
        min-width:250px;
-       background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/resume-skills-bg.jpg");
+       background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/resume-skills-bg.jpg");
        background-size: cover;
        text-align: center;
        
@@ -142,7 +142,7 @@ body{ overflow-x: auto;
 
 #projects-bg{min-height:350px;
         min-width:250px;
-        background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/resume-project-bg.jpg");
+        background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/resume-project-bg.jpg");
         background-size: cover;
         text-align: center; 
         
@@ -177,7 +177,7 @@ body{ overflow-x: auto;
       border-color: transparent;
     }
 /* Connect page*/
-#connect{background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/connect-bg.jpg");
+#connect{background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/connect-bg.jpg");
       min-height: 500px;
       background-position: center;
       background-repeat: no-repeat;
@@ -194,7 +194,7 @@ body{ overflow-x: auto;
       letter-spacing: 3px;
       font-family: 'Playfair Display', ;
       font-size: 6rem;
-      background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/connect-banner-bg.jpg");
+      background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/connect-banner-bg.jpg");
 
 
 }
