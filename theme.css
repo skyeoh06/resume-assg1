@@ -13,7 +13,7 @@ body{ overflow-x: auto;
          }
 /* home page*/
 #home{
-      background-image: url("https://static.wixstatic.com/media/bba32c8486bc4596a99f61d320c20d4f.jpg");
+      background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/home-flakes.jpg");
       height: 100vh;
       min-height: 500px;
       background-position: center;
@@ -40,7 +40,7 @@ body{ overflow-x: auto;
       text-align:center;
 }  
 /* about page*/
-#about{background-image: url("https://static.wixstatic.com/media/11062b_2042bb7351284f0f982e4787d37415e6f000.jpg/v1/fill/w_245,h_138,al_c,q_80,usm_0.33_1.00_0.00,blur_2/11062b_2042bb7351284f0f982e4787d37415e6f000.jpg");
+#about{background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/About-bg.jpg");
       height: 100vh;
       min-height: 500px;
       background-position: center;
@@ -51,7 +51,7 @@ body{ overflow-x: auto;
       }
         
          
-.col-sm-5{background-image: url("https://images.wallpaperscraft.com/image/flower_bloom_branch_162334_3840x2160.jpg");
+.col-sm-5{background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/flower_bloom_about.jpg");
           background-size: cover;
           min-height:500px;
 
@@ -86,7 +86,7 @@ body{ overflow-x: auto;
 }
 #info-bg{min-height:350px;
       min-width:250px;
-      background-image: url("https://ramacabs.com/wp-content/uploads/2017/10/contact-background.jpg");
+      background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/resume-info-bg.jpg");
       background-size: cover;
       text-align: center;
       color:grey;
@@ -105,7 +105,7 @@ body{ overflow-x: auto;
 }
 #educations-bg{min-height:350px;
            min-width:250px;
-           background-image: url("https://peoriaparks.org/wp-content/uploads/2017/12/BookCourt_iStock-690358116-e1515177346323.jpg");
+           background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/resume-education-bg.jpg");
            background-size: cover;
            text-align: center;
            background-position: center;
@@ -116,7 +116,7 @@ body{ overflow-x: auto;
 
 #certificates-bg{min-height:350px;
              min-width: 250px;
-             background-image: url("https://thebiomedicalscientist.net/sites/default/files/media/image/2019/diploma_istock-495804756.jpg");
+             background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/resume-certificate-bg.jpg");
              background-size: cover;
              text-align: center;
              
@@ -124,7 +124,7 @@ body{ overflow-x: auto;
 
 #employment-history-bg{min-height:350px;
              min-width:250px;
-             background-image: url("https://image.freepik.com/free-photo/office-workplace-with-keypad-glasses_23-2147833237.jpg");
+             background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/resume-employment-bg.jpg");
              background-size: cover;
              text-align: center;
              
@@ -133,7 +133,7 @@ body{ overflow-x: auto;
   
 #skills-bg{min-height:350px;
        min-width:250px;
-       background-image: url("https://image.freepik.com/free-photo/hand-holding-illuminated-light-bulb-with-outline-face-drawn-blackboard-with-idea-text_23-2147874059.jpg");
+       background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/resume-skills-bg.jpg");
        background-size: cover;
        text-align: center;
        
@@ -142,7 +142,7 @@ body{ overflow-x: auto;
 
 #projects-bg{min-height:350px;
         min-width:250px;
-        background-image: url("https://static.vecteezy.com/system/resources/previews/000/338/734/original/vector-circuit-board-background.jpg");
+        background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/resume-project-bg.jpg");
         background-size: cover;
         text-align: center; 
         
@@ -150,6 +150,7 @@ body{ overflow-x: auto;
 }
   
  /* Bottom right text */
+/* Button css  for light background*/
 .bottom-right-dark {
       position: absolute;
       bottom: 8px;
@@ -161,7 +162,8 @@ body{ overflow-x: auto;
       border-style: none;
       background-color: transparent;
       border-color: transparent;
-    }
+ }
+ /* Button css  for dark background*/
 .bottom-right-light {
       position: absolute;
       bottom: 8px;
@@ -174,7 +176,7 @@ body{ overflow-x: auto;
       background-color: transparent;
       border-color: transparent;
     }
-//* Connect page*/
+/* Connect page*/
 #connect{background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/connect-bg.jpg");
       min-height: 500px;
       background-position: center;
@@ -193,6 +195,7 @@ body{ overflow-x: auto;
       font-family: 'Playfair Display', ;
       font-size: 6rem;
       background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/picture/connect-banner-bg.jpg");
+
 
 }
 form{ 
