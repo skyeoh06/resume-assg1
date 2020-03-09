@@ -97,7 +97,8 @@ body{ overflow-x: auto;
 .modal{color:olive;
       font-style: italic;
       font-family: "Times New Roman", Times, serif;
-     
+      
+
 }
 .modal-body,.modal-content{background-color: Beige;
 
@@ -118,7 +119,7 @@ body{ overflow-x: auto;
              min-width: 250px;
              background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/resume-certificate-bg.jpg");
              background-size: cover;
-             text-align: center;
+             text-align: left;
              
 }
 
@@ -135,7 +136,7 @@ body{ overflow-x: auto;
        min-width:250px;
        background-image: url("file:///Users/skyeoh/Documents/GitHub/resume-assg1/bg-photos/resume-skills-bg.jpg");
        background-size: cover;
-       text-align: center;
+       text-align: left;
        
 
 }
