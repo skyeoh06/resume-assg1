@@ -192,17 +192,17 @@ body{ overflow-x: auto;
       background-repeat: no-repeat;
       background-size: cover;
 }
-#contact{border-width: 15px;
+#contact{border-width: 8px;
       border-style: solid;
       border-color:#ad9f87;
       text-align: center;
       text-size-adjust:auto ;
-      height:200px;
+      height:100px;
       width:800px;
       color: rgb(46, 88, 46);
       letter-spacing: 3px;
       font-family: 'Playfair Display', ;
-      font-size: 6rem;
+      font-size: 4rem;
       background-image: url("bg-photos/connect-banner-bg.jpg");
 
 
@@ -214,6 +214,18 @@ form{
       border-style: dotted;
       border-color: #ad9f87;
       color:rgb(46, 88, 46);
+      background-color: rgb(255, 255, 255,0.8);
 }
-.button{color:beige;
-background-color: #ad9f87;}
+.btn{display: inline-block;
+      font-weight: 400;
+      text-align:center;
+      vertical-align:middle ;
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem;
+}
+.btn-form{
+      color:beige;
+      background-color: #ad9f87;}
