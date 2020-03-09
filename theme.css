@@ -54,19 +54,19 @@ body{ overflow-x: auto;
         
          
 .col-sm-5{background-image: url("bg-photos/flower_bloom_about.jpg");
-          padding-top:100px;
+          margin-top:100px;
+          margin-bottom:100px;
           background-size: cover;
-          min-height:300px;
+          padding:100px;
 
 }
 #banner{
        border-width: 15px;
        border-style: solid;
        border-color: white;
-       padding-top:100px;
+       
        text-align: center;
-       height:300px;
-       width:200px;
+       
        color: rgb(46, 88, 46);
        letter-spacing: 3px;
        font-family: 'Playfair Display', ;
