@@ -11,17 +11,20 @@ body{ overflow-x: auto;
 .nav-item{padding-left:50px;
          
          }
-/* home page*/
+
+/* home page*/ 
 #home{
       background-image: url("bg-photos/home-flakes.jpg");
-      height: 100vh;
+     
+      height:100vh;
       min-height: 500px;
-      background-position: center;
+      background-position: center center;
       background-repeat: no-repeat;
+      background-attachment: fixed;
       background-size: cover;
       padding-top: 200px;
      
-      }    
+      }   
 #name{
           font-size: 6rem;
            color:white;
@@ -79,12 +82,13 @@ body{ overflow-x: auto;
       font-family: "Times New Roman", Times, serif;
 }
 /* resume page*/
-#resume{height: 100vh;
-       min-height: 500px;
-       background-position: center;
-       background-repeat: no-repeat;
-       background-size: cover;
-       padding:0;
+#resume{background-color: white;
+      height:100vh;
+      min-height: 500px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
 
 }
 #info-bg{min-height:350px;
@@ -187,10 +191,13 @@ body{ overflow-x: auto;
     }
 /* Connect page*/
 #connect{background-image: url("bg-photos/connect-bg.jpg");
+      height:100vh;
       min-height: 500px;
-      background-position: center;
+      background-position: center center;
       background-repeat: no-repeat;
+      background-attachment: fixed;
       background-size: cover;
+      padding-top:200px;
 }
 #contact{border-width: 8px;
       border-style: solid;
@@ -204,6 +211,16 @@ body{ overflow-x: auto;
       font-family: 'Playfair Display', ;
       font-size: 4rem;
       background-image: url("bg-photos/connect-banner-bg.jpg");
+
+
+}
+.container-fluid{width: 100%;
+      
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-top: auto;
+
 
 
 }
