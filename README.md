@@ -22,7 +22,7 @@ The project is defined by below categories
 1.Home -- name
 2.About -- Summary about me
 3.Resume -- details on info, education, certificate, employment, skills and products.
-4.Gallery -- info about the product
+4.Creation-- info about the product
 5.Connect - a form page for employee their info .
 The background color between each page is choose with contrast effects. The Font family and color is choose with readable.
 
@@ -32,7 +32,7 @@ Users can access the update via clicking on the title button (ex resume..employm
 Users can leave their contact via the connect page.
 
 2.Additional Features to be implemented in the future.
-Galleries - to presented the project besides work related product.
+Invention - to presented the project besides work related product.
 
 Technologies Used
 1.HTML5 (https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5): The project uses HTML5 to structure the layout of the website.
