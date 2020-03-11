@@ -1,13 +1,21 @@
 *, *:before, *:after {
+      
+      -webkit-box-sizing: inherit;
+      -moz-box-sizing: inherit;
       box-sizing: inherit;
 }
 html {
+      
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
       box-sizing: border-box;
 }
 
 /*body css*/
 body{ overflow-x: auto;
       overflow-y: scroll;
+      margin-left: auto;
+     margin-right: auto;
       
      }
 
@@ -32,31 +40,31 @@ body{ overflow-x: auto;
 .nav-item{padding-left:50px;
          
          }
-section{box-sizing: inherit;
-        
-}
+
 /* home page*/ 
 #home{
       background-image: url("bg-photos/home-flakes.jpg");
-      width:100%;
-      height:100vh;
-      min-height: 500px;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
       padding-top: 200px;
+      background-size: cover;
+      
+      min-height: 700px;
+      max-width:100%;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-attachment:fixed;
+      
+      
      
       } 
       
-#name{
+#name{    
           font-size: 6rem;
            color:white;
            text-align: center;
 
            
       }
-#surname{
+#surname{  
             font-size: 6rem;
              color:white;
              text-align: left;
@@ -65,7 +73,7 @@ section{box-sizing: inherit;
 #intro{ font-size:xx-large;
       color:white;
       text-align:center;
-      padding-left :400px;
+      padding-left :300px;
       
 }  
 /* about page*/
@@ -188,7 +196,7 @@ section{box-sizing: inherit;
   
  /* Bottom right text */
 /* Button css  for light background*/
-.bottom-right-dark {
+.education-button {
       position: absolute;
       bottom: 8px;
       right: 100px;
@@ -200,11 +208,59 @@ section{box-sizing: inherit;
       background-color: transparent;
       border-color: transparent;
  }
- /* Button css  for dark background*/
-.bottom-right-light {
+ .info-button{
       position: absolute;
       bottom: 8px;
-      right: 80px;
+      right: 20px;
+      width:100px;
+      height:50px;
+      font-size:xx-large;
+      color:#285e36;
+      border-style: none;
+      background-color: transparent;
+      border-color: transparent;
+ }
+ .employment-button{
+      position: absolute;
+      bottom: 8px;
+      right: 140px;
+      width:100px;
+      height:50px;
+      font-size:xx-large;
+      color:#285e36;
+      border-style: none;
+      background-color: transparent;
+      border-color: transparent;
+ }
+ /* Button css  for dark background*/
+ .certificate-button{position: absolute;
+      bottom: 8px;
+      right: 102px;
+      width:110px;
+      height:50px;
+      font-size:xx-large;
+      color: #ccac6c;
+      border-style: none;
+      background-color: transparent;
+      border-color: transparent;
+
+ }
+ .skill-button{position: absolute;
+      bottom: 8px;
+      right: 26px;
+      width:100px;
+      height:50px;
+      font-size:xx-large;
+      color: #ccac6c;
+      border-style: none;
+      background-color: transparent;
+      border-color: transparent;
+
+ }
+.project-button {
+      position: absolute;
+      bottom: 8px;
+      right: 66px;
       width:100px;
       height:50px;
       font-size:xx-large;
