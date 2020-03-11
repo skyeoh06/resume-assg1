@@ -45,6 +45,9 @@ body{ overflow-x: auto;
          }
 
 /* home page*/ 
+.row{width:100%;
+
+}
 #home{
       background-image: url("bg-photos/home-flakes.jpg");
       padding-top: 200px;
@@ -277,7 +280,6 @@ body{ overflow-x: auto;
       background-color:white;
       padding-top: 200px;
       background-size: cover;
-      
       min-height: 700px;
       max-width:100%;
       background-position: top;
@@ -295,6 +297,8 @@ body{ overflow-x: auto;
        min-height:250px;
        background-size: contain;
        background-repeat: no-repeat;
+       border-collapse: collapse;
+       border-width: 0;
 
 }
 /*Thermal printer*/
@@ -317,6 +321,18 @@ body{ overflow-x: auto;
          background-repeat: no-repeat;
 
 }
+/*pastry*/
+#pastry{background-image: url("bg-photos/printer.jpeg");
+      padding : 0;
+      margin:0;
+      width:250px;
+      min-height:250px;
+      background-size: contain;
+      background-repeat: no-repeat;
+
+}
+
+
 /* Connect page*/
 #connect{background-image: url("bg-photos/connect-bg.jpg");
       height:100vh;
