@@ -14,13 +14,7 @@ body, html {
       height: 100%;
       margin: 0;
     }
-/*body css*/
-body{ overflow-x: auto;
-      overflow-y: scroll;
-      margin-left: auto;
-     margin-right: auto;
-      
-     }
+
 
 /*navigation css*/
 .navbar-nav{display: flex;
@@ -31,8 +25,8 @@ body{ overflow-x: auto;
       background-color: #FFFFFF;
       padding: 5px;
       margin: 0 0 5px 0;
-      > * {
-        margin: 0 10px;}
+   /*   > * {
+        margin: 0 10px;}*/
       }
 .bg-light{
          background-color: #FFFFFF!important;
@@ -44,48 +38,52 @@ body{ overflow-x: auto;
          
          }
 
-/* home page*/ 
-.row{width:100%;
+/* home page */
+#home{background-color: white;
+      height:100vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment:fixed;
+
 
 }
-#home{
-      background-image: url("bg-photos/home-flakes.jpg");
-      padding-top: 200px;
+
+#snow{background-image: url("bg-photos/home-flakes.jpg");
       background-size: cover;
-      
-      min-height: 700px;
-      max-width:100%;
+      height:50vh;
+      position:relative;
+      bottom:15px;
+      left:15px;
+      right:15px;
       background-position: top;
       background-repeat: no-repeat;
       background-attachment:fixed;
-      
-      
      
-      } 
+
+
+ } 
       
-#name{    
-          font-size: 6rem;
+#name{   
            color:white;
            text-align: center;
-
+           position: relative;
+           border-width: 8px;
+           border-style: solid;
+           border-color:#ad9f87;
+        
            
-      }
-#surname{  
-            font-size: 6rem;
-             color:white;
-             text-align: left;
-             
 } 
 #intro{ font-size:xx-large;
       color:white;
       text-align:center;
-      padding-left :300px;
-      
+      /* position:relative;
+      top: 0px;
+      left:300px;
+     */ /*fix padding */ 
 }  
 /* about page*/
 #about{background-color: white;
       height: 100vh;
-      min-height: 500px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -94,7 +92,7 @@ body{ overflow-x: auto;
       }
         
          
-.col-sm-5{background-image: url("bg-photos/flower_bloom_about.jpg");
+#flower{background-image: url("bg-photos/flower_bloom_about.jpg");
           margin-top:100px;
           margin-bottom:100px;
           background-size: cover;
@@ -105,36 +103,33 @@ body{ overflow-x: auto;
        border-width: 15px;
        border-style: solid;
        border-color: white;
-       
        text-align: center;
-       
        color: rgb(46, 88, 46);
        letter-spacing: 3px;
        font-family: 'Playfair Display', ;
 }
 #summary{padding:100px;
-      text-align: left;
-      text-size-adjust:auto ;
-      color:grey;
-      font-style: italic;
-      font-family: "Times New Roman", Times, serif;
+        text-align: left;
+        text-size-adjust:auto ;
+        color:grey;
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif;
 }
 /* resume page*/
 #resume{background-color: white;
       height:100vh;
-      min-height: 500px;
       background-position: center center;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
 
 }
-#info-bg{min-height:350px;
-      min-width:250px;
-      background-image: url("bg-photos/resume-info-bg.jpg");
-      background-size: cover;
-      text-align: center;
-      color:grey;
+#info-bg{height:50vh;
+         width:33vw;
+         background-image: url("bg-photos/resume-info-bg.jpg");
+         background-size: cover;
+         text-align: center;
+         color:grey;
      
 
 }
@@ -154,48 +149,48 @@ body{ overflow-x: auto;
       display: block;
       
     }
-#educations-bg{min-height:350px;
-           min-width:250px;
-           background-image: url("bg-photos/resume-education-bg.jpg");
-           background-size: cover;
-           text-align: left;
-           background-position: center;
+#educations-bg{height:50vh;
+               width:33vw;
+               background-image: url("bg-photos/resume-education-bg.jpg");
+               background-size: cover;
+               text-align: left;
+               background-position: center;
            
 
 
 }
 
-#certificates-bg{min-height:350px;
-             min-width: 250px;
-             background-image: url("bg-photos/resume-certificate-bg.jpg");
-             background-size: cover;
-             text-align: left;
+#certificates-bg{height:50vh;
+                 width:33vw;
+                 background-image: url("bg-photos/resume-certificate-bg.jpg");
+                 background-size: cover;
+                 text-align: left;
              
 }
 
-#employment-history-bg{min-height:350px;
-             min-width:250px;
-             background-image: url("bg-photos/resume-employment-bg.jpg");
-             background-size: cover;
-             text-align: left;
+#employment-history-bg{height:50vh;
+                       width:33vw;
+                       background-image: url("bg-photos/resume-employment-bg.jpg");
+                       background-size: cover;
+                       text-align: left;
              
 
             }
   
-#skills-bg{min-height:350px;
-       min-width:250px;
-       background-image: url("bg-photos/resume-skills-bg.jpg");
-       background-size: cover;
-       text-align: left;
+#skills-bg{height:50vh;
+           width:33vw;
+           background-image: url("bg-photos/resume-skills-bg.jpg");
+           background-size: cover;
+           text-align: left;
        
 
 }
 
-#projects-bg{min-height:350px;
-        min-width:250px;
-        background-image: url("bg-photos/resume-project-bg.jpg");
-        background-size: cover;
-        text-align: left; 
+#projects-bg{height:50vh;
+             width:33vw;
+             background-image: url("bg-photos/resume-project-bg.jpg");
+             background-size: cover;
+             text-align: left; 
         
 
 }
@@ -278,13 +273,13 @@ body{ overflow-x: auto;
 /* Creation page CSS */
 #creation{
       background-color:white;
-      padding-top: 200px;
       background-size: cover;
-      min-height: 700px;
-      max-width:100%;
+      height:100vh;
       background-position: top;
       background-repeat: no-repeat;
       background-attachment:fixed;
+      position:relative;
+      top:200px;
       
 } 
    
@@ -293,8 +288,8 @@ body{ overflow-x: auto;
       padding-top: 10px;
        padding: 0;
        margin:10px;
-       width:250px;
-       min-height:250px;
+       width:33vw;
+       height:50vh;
        background-size: contain;
        background-repeat: no-repeat;
        border-collapse: collapse;
@@ -305,8 +300,8 @@ body{ overflow-x: auto;
 #thermal{background-image: url("bg-photos/thermal.jpg");
          padding : 0;
          margin:10px;
-         width:250px;
-         min-height:250px;
+         width:33vw;
+         height:50vh;
          background-size: contain;
          background-repeat: no-repeat;
 }
@@ -315,8 +310,8 @@ body{ overflow-x: auto;
 #printer{background-image: url("bg-photos/printer.jpeg");
          padding : 0;
          margin:0;
-         width:250px;
-         min-height:250px;
+         width:33vw;
+         height:50vh;
          background-size: contain;
          background-repeat: no-repeat;
 
@@ -325,8 +320,7 @@ body{ overflow-x: auto;
 #pastry{background-image: url("bg-photos/printer.jpeg");
       padding : 0;
       margin:0;
-      width:250px;
-      min-height:250px;
+      height:50vh;
       background-size: contain;
       background-repeat: no-repeat;
 
@@ -335,31 +329,30 @@ body{ overflow-x: auto;
 
 /* Connect page*/
 #connect{background-image: url("bg-photos/connect-bg.jpg");
-      height:100vh;
-      min-height: 500px;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      padding-top:50px;
+         height:100vh;  
+         background-position: center center;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+         
+        
 }
 #contact{border-width: 8px;
       border-style: solid;
       border-color:#ad9f87;
       text-align: center;
       text-size-adjust:auto ;
-      height:100px;
-      width:800px;
+      height:10vh;
+      width:80vw;
       color: rgb(46, 88, 46);
       letter-spacing: 3px;
       font-family: 'Playfair Display', ;
       font-size: 4rem;
       background-image: url("bg-photos/connect-banner-bg.jpg");
-
 }
 form{ 
       font-family: 'Playfair Display', ;
-      width:800px;
+      width:80vw
       border-width: 5px;
       border-style: dotted;
       border-color: #ad9f87;
