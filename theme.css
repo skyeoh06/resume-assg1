@@ -39,18 +39,10 @@ body, html {
          }
 
 /* home page */
-#home{background-color: white;
+
+#home{background-color:#4f6482;
+      background-size: cover;
       height:100vh;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment:fixed;
-
-
-}
-
-#snow{background-image: url("bg-photos/home-flakes.jpg");
-      background-size: cover;
-      height:50vh;
       position:relative;
       bottom:15px;
       left:15px;
@@ -62,25 +54,38 @@ body, html {
 
 
  } 
-      
-#name{   
-           color:white;
-           text-align: center;
+ /*side -image*/
+ #self{background-image: url("bg-photos/home-flakes.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      height: 100vh;
+      width: 80vw;
+      border-radius:25px;
+     
+}
+/* name */       
+#name{    
+           color:#a7b0ab;
+           text-align:center;
            position: relative;
-           border-width: 8px;
-           border-style: solid;
-           border-color:#ad9f87;
-        
+           top:130px;
+           
            
 } 
-#intro{ font-size:xx-large;
-      color:white;
+/* contact info */
+#info{    
+      color:#a7b0ab;
       text-align:center;
-      /* position:relative;
-      top: 0px;
-      left:300px;
-     */ /*fix padding */ 
-}  
+      position: relative;
+      top:180px;
+     
+      
+} 
+
+
+
 /* about page*/
 #about{background-color: white;
       height: 100vh;
@@ -124,15 +129,7 @@ body, html {
       background-size: cover;
 
 }
-#info-bg{height:50vh;
-         width:33vw;
-         background-image: url("bg-photos/resume-info-bg.jpg");
-         background-size: cover;
-         text-align: center;
-         color:grey;
-     
 
-}
 
 .modal{color:olive;
       font-style: italic;
@@ -209,18 +206,7 @@ body, html {
       background-color: transparent;
       border-color: transparent;
  }
- .info-button{
-      position: absolute;
-      bottom: 8px;
-      right: 20px;
-      width:100px;
-      height:50px;
-      font-size:xx-large;
-      color:#285e36;
-      border-style: none;
-      background-color: transparent;
-      border-color: transparent;
- }
+
  .employment-button{
       position: absolute;
       bottom: 8px;
