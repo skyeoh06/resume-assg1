@@ -134,8 +134,8 @@ img {
         font-style: italic;
         font-family: "Times New Roman", Times, serif;
 }
-/* resume page*/
-#resume{background-color: white;
+/*Education and Skills page*/
+#edu-skil{background-color: #75a1bd;
       height:100vh;
       background-position: center center;
       background-repeat: no-repeat;
@@ -143,8 +143,41 @@ img {
       background-size: cover;
 
 }
+/*Software*/
+#educations{position: relative;
+            top:10vh;
+            color:#22162e;
 
 
+}
+.diploma-btn{color: #b85a12;
+             border-style: solid;
+             background-color: transparent;
+             border-color:  #b85a12;
+
+}
+
+/*pastry*/
+.pastry-btn{color: #b85a12;
+            border-style: solid;
+            background-color: transparent;
+            border-color:  #b85a12;
+
+}
+
+/*bachelor*/
+.bachelor-btn{color:#b85a12;
+          border-style: solid;
+          background-color: transparent;
+          border-color:  #b85a12;
+
+}
+
+/*skills column*/
+#language
+#softskills
+
+#hardskills
 .modal{color:olive;
       font-style: italic;
       font-family: "Times New Roman", Times, serif;
@@ -159,172 +192,14 @@ img {
       margin: auto;
       display: block;
       
-    }
-#educations-bg{height:50vh;
-               width:33vw;
-               background-image: url("bg-photos/resume-education-bg.jpg");
-               background-size: cover;
-               text-align: left;
-               background-position: center;
-           
-
-
 }
 
-#certificates-bg{height:50vh;
-                 width:33vw;
-                 background-image: url("bg-photos/resume-certificate-bg.jpg");
-                 background-size: cover;
-                 text-align: left;
-             
-}
+ 
+ 
 
-#employment-history-bg{height:50vh;
-                       width:33vw;
-                       background-image: url("bg-photos/resume-employment-bg.jpg");
-                       background-size: cover;
-                       text-align: left;
-             
 
-            }
-  
-#skills-bg{height:50vh;
-           width:33vw;
-           background-image: url("bg-photos/resume-skills-bg.jpg");
-           background-size: cover;
-           text-align: left;
-       
 
-}
 
-#projects-bg{height:50vh;
-             width:33vw;
-             background-image: url("bg-photos/resume-project-bg.jpg");
-             background-size: cover;
-             text-align: left; 
-        
-
-}
-  
- /* Bottom right text */
-/* Button css  for light background*/
-.education-button {
-      position: absolute;
-      bottom: 8px;
-      right: 100px;
-      width:100px;
-      height:50px;
-      font-size:xx-large;
-      color:#285e36;
-      border-style: none;
-      background-color: transparent;
-      border-color: transparent;
- }
-
- .employment-button{
-      position: absolute;
-      bottom: 8px;
-      right: 140px;
-      width:100px;
-      height:50px;
-      font-size:xx-large;
-      color:#285e36;
-      border-style: none;
-      background-color: transparent;
-      border-color: transparent;
- }
- /* Button css  for dark background*/
- .certificate-button{position: absolute;
-      bottom: 8px;
-      right: 102px;
-      width:110px;
-      height:50px;
-      font-size:xx-large;
-      color: #ccac6c;
-      border-style: none;
-      background-color: transparent;
-      border-color: transparent;
-
- }
- .skill-button{position: absolute;
-      bottom: 8px;
-      right: 26px;
-      width:100px;
-      height:50px;
-      font-size:xx-large;
-      color: #ccac6c;
-      border-style: none;
-      background-color: transparent;
-      border-color: transparent;
-
- }
-.product-button {
-      position: absolute;
-      bottom: 8px;
-      right: 66px;
-      width:100px;
-      height:50px;
-      font-size:xx-large;
-      color: #ccac6c;
-      border-style: none;
-      background-color: transparent;
-      border-color: transparent;
-    }
-/* Creation page CSS */
-#creation{
-      background-color:white;
-      background-size: cover;
-      height:100vh;
-      background-position: top;
-      background-repeat: no-repeat;
-      background-attachment:fixed;
-      position:relative;
-      top:200px;
-      
-} 
-   
-/* audio */
-#audio{background-image: url("bg-photos/hifi.jpeg");
-      padding-top: 10px;
-       padding: 0;
-       margin:10px;
-       width:33vw;
-       height:50vh;
-       background-size: contain;
-       background-repeat: no-repeat;
-       border-collapse: collapse;
-       border-width: 0;
-
-}
-/*Thermal printer*/
-#thermal{background-image: url("bg-photos/thermal.jpg");
-         padding : 0;
-         margin:10px;
-         width:33vw;
-         height:50vh;
-         background-size: contain;
-         background-repeat: no-repeat;
-}
-
-/* OfficeJet Printer*/
-#printer{background-image: url("bg-photos/printer.jpeg");
-         padding : 0;
-         margin:0;
-         width:33vw;
-         height:50vh;
-         background-size: contain;
-         background-repeat: no-repeat;
-
-}
-/*pastry*/
-#pastry{background-image: url("bg-photos/printer.jpeg");
-      padding : 0;
-      margin:0;
-      height:50vh;
-      background-size: contain;
-      background-repeat: no-repeat;
-
-}
 
 
 /* Connect page*/
