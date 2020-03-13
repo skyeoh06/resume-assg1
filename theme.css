@@ -135,7 +135,7 @@ img {
         font-family: "Times New Roman", Times, serif;
 }
 /*Education and Skills page*/
-#edu-skil{background-color: #75a1bd;
+#edu-skil{background-color: #b39e89;
       height:100vh;
       background-position: center center;
       background-repeat: no-repeat;
@@ -145,8 +145,8 @@ img {
 }
 /*Software*/
 #educations{position: relative;
-            top:10vh;
-            color:#22162e;
+            top:50px;
+            color:#ded6ca;
 
 
 }
@@ -174,10 +174,43 @@ img {
 }
 
 /*skills column*/
-#language
-#softskills
+#skills{ position:relative;
+         padding-top:50px;
+         padding-left: 50px;
+         padding-right:50px;
+         color:#ded6ca;
 
-#hardskills
+
+
+
+}
+#language{ color:#7a420a;
+           border-style: solid;
+           background-color: transparent;
+           border-color:  #ded6ca;
+           background-color:#ded6ca;
+           position:relative;
+}
+
+#softskills{ color:#7a420a;
+           border-style: solid;
+           background-color: transparent;
+           border-color:  #ded6ca;
+           background-color:#ded6ca;
+           position:relative;
+           top:3vh;
+}
+
+#hardskills{ color:#7a420a;
+            border-style: solid;
+            background-color: transparent;
+            border-color:  #ded6ca;
+            background-color:#ded6ca;
+            position:relative;
+            top:6vh;
+}
+
+/*modal for education details*/
 .modal{color:olive;
       font-style: italic;
       font-family: "Times New Roman", Times, serif;
