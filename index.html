@@ -15,48 +15,60 @@
     
   </head>
   <body>
+    
     <!--navigation bar menu-->
-    <nav class="navbar navbar-expand-lg bg-light justify-content-center fixed-top ">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#edu-skil">Educations & Skills</a>
-        </li> 
-        <li class="nav-item">
-          <a class="nav-link" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#achievement">Achievement</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#connect">Connect</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-sm bg-light justify-content-center fixed-top ">
+      <div class="container">
+        <a class="navbar-brand">
+          <img src="bg-photos/logo.jpg" alt="logo" style="width:6vw;">
+        </a>
+      
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Educations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#achievement">Achievement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#connect">Connect</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+    
     <!--Home Page-->
     <section>
-      <!--<div -->
-        <div class="container h-100 w-100"id="home">
+      <div class="jumbotron" id="home">
+      <!--content start-->
+        <div class="container">
           <div class="row">
-            <div class="col-sm-8" id="self">
+            <div class="col-sm-8">
               <div id="intro">
                 <h1>Hello,I'm <br>
                 Yeoh Seok Khim</h1>
                 <p>An Electrical Engineer.. A Baker...A Software Developer</p>
               </div>
             </div>
-            <div class="col-sm-4">
+            <!--picture-->
+            <div class="col-sm-4" id="self">
               <div id="pic">
                 <img src="bg-photos/selfphoto.JPEG" alt="selfphoto" >
               </div>
-
+              <!--info-->
               <div id="info">
-                <p>
                 <p>Contact : 97365972</p>
                 <p>Email : yeohseokkhim@gmail.com</p>
                 <p>Resident country : Singapore</p>
@@ -64,14 +76,17 @@
                 <p>Objective: Keep learning, Stay Curious.</p>
               </div>
             </div>
-          </div>
-        </div>
-    
+          </div> 
+        </div>   
+      <!--content end-->  
+      </div>  
     </section>
     <!--about page-->
     <section>
+      <div class="jumbotron" id="about">
       <!--About me-->
-        <div class="container h-100 w-100" id="about">
+        <div class="container" >
+          <!--content start-->
           <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-5" id="flower">
@@ -98,20 +113,24 @@
                   Technology and Management(Feb-Aug2020).
                 </p>
             </div>
-            
+           <!--content end--> 
           </div>
         </div>  
+
+      </div>  
     </section>
-    <!--Education and Skillspage-->
+    <!--Education page-->
     <section>
-        <div class="container h-100 w-100" id="edu-skil">
-          <div class="row">
-            <div class="col-sm-6" id="educations">
-              <!--Education column-->
-                <h1>Educations : </h1>
-                  <ol>
-                    <!--software-->
-                    <li><b>Trent Global College of Technology & Management</b>
+      <div class="jumbotron" id="education">
+        <!--content start-->
+        <div class="container" >
+          <div class="page-header">
+              <h1>Educations </h1>
+          </div>  
+          <div class="row"> 
+            <ol>
+              <!--software-->
+              <li><b>Trent Global College of Technology & Management</b>
                       <ul>
                         <li>Course : Diploma in Software Development</li>
                         <li>Duration : Feb-Aug 2020</li>
@@ -157,10 +176,10 @@
                           </div>
                         </li> 
                       </ul> 
-                    </li>
-                    <br>
-                    <!--pastry-->
-                    <li><b>Sunrice GlobalChef Academy</b>
+              </li>
+              <br>
+              <!--pastry-->
+              <li><b>Sunrice GlobalChef Academy</b>
                       <ul>
                         <li>Course : Diploma in Pastry and Baking</li>
                         <li>Duration : Nov 2015 - June 2017</li>
@@ -219,10 +238,10 @@
                           </div>
                         </li> 
                       </ul> 
-                    </li>
-                    <br>
-                    <!--Engineer-->
-                    <li><b>University Science Malaysia</b>
+              </li>
+              <br>
+              <!--Engineer-->
+              <li><b>University Science Malaysia</b>
                       <ul>
                         <li>Course : Bachelor Degree in Engineering(Electrical & Electronics)</li>
                         <li>Duration : May 2002 - May 2006</li>
@@ -262,94 +281,155 @@
                           </div>
                         </li> 
                       </ul> 
-                    </li>
-                  </ol>
+              </li>
+            </ol>
               
-            </div>
-            <div class="col-sm-6"id="skills">
-              <!--Education column-->
-                <h1>Skills : </h1>
-                <div class="row"> 
-                  <Strong>Language :</Strong>
-                  <ul>
-                    <li>English : Proficient</li>
-                    <li>Mandarin : Fluent</li>
-                    <li>Malay : Conversational </li>
-                    <li>Japanese  : Basic</li>
-                  </ul>  
-                </div>
-                <div class="row"> 
-                  <Strong>Softskills :</Strong>
-                  <ul>
-                    <li>Confidence , Coordination , Curiosity , Self Management, </li>
-                    <li>Optimism , Analysis , Observation , lateral thinking,</li>
-                    <li>Divergent thinking , Experimenting , Integrity , Responsibility,</il>
-                    <il>Time-management , Planning ,Critical observation.</li>
-                  </ul>
-                </div>  
-                <div class="row"> 
-                  <Strong>Hardskills :</Strong>
-                  <ul>
-                    <li>Microsoft Office , Product Knowledge,</li>
-                    <li>Cashier Skills , Programming Languages,</li>
-                    <li>Web Development , UX/UI , Prototyping,</li>
-                    <li>Testing , Troubleshooting , Computer Skills,</li>
-                    <li>Technical Report Writing , Basic circuit Knowledge,</li>
-                    <li>Numerical Skills , Creative Thinking Skills,</li>
-                    <li>Attention to details , Curiosity ,creativity,</li>
-                    <li>Networking Basics.</li>
-                  </ul>
-                </div>  
-              
-            </div>  
           </div>
+          
         </div>
-     
-    </section>     
+        <!--content end-->
+      </div>
+    </section>
+
+         
     <!--Experience Page-->  
     <section>
-        <div class="container h-100 w-100" id="experience">
-          <h1>Work Experience</h1>
+      <div class="jumbotron" id="experience">
+        <!--content start-->
+        <div class="container" >
+          <div class="page-header">
+            <h1>Work Experience</h1>
+          </div>  
           <div class="row">
             <!--Pastry-->
             <div class="col-sm-6" id="job-pastry">
-                  <h6>Pastry Chef / Baker</h6>
-                    <p>March 2016 -march 2017(Trainee), May 2018 </p>  
-                    <p>Tiong Bahru Bakery - Singapore</p>
-                    <p>Job Description : Prepare pastry item and baking for the shop sell-items and 
-                    BOH activitie such as Mise en Place, cleaning, inventory.</p>
-                    <p>March 2018 - May 2018</p>  
-                    <p>Fatcat Ice Cream Bar - Singapore</p> 
-                    <p>Job Description : Prepare waffles and scones for the shop and 
-                   BOH activitie such as Mise en Place, cleaning, inventory.Also Support cashier and services.</p>
-                    <p>July 2017 - Dec 2017</p>
-                    <p>The University Club - Singapore</p>
-                    <p>Job Description : Prepare plated dessert for the shop during Lunch time and dinner time.And 
-                    BOH activitie such as Mise en Place, cleaning, inventory.Also Support cashier and services.</p>
-                    
+              <strong>Pastry Chef / Baker</strong>
+              <ol>
+                  <li>May 2018 - Present
+                    <ul>
+                      <li>Company : Tiong Bahru Bakery - Singapore</li>
+                      <li>Job Description : Prepare pastry item and baking bread for the shop sell-items and 
+                           BOH activitie such as Mise en Place, cleaning, inventory.</li>
+                    </ul>
+                  </li><br>
+                  <li>March 2018 - May 2018
+                    <ul>
+                      <li>Company : Fatcat Ice Cream Bar - Singapore</li>
+                      <li>Job Description : Prepare items such as waffles, scones and sauces for the shop and 
+                        BOH activitie such as Mise en Place, cleaning, inventory.Also FOH operations such as 
+                        cashier and services.</li>
+                    </ul>
+                  </li><br>
+                  <li>July 2017 - Dec 2017
+                    <ul>
+                      <li>Company : The University Club - Singapore</li>
+                      <li>Job Description : Prepare plated dessert for the shop during Lunch time and dinner time.And 
+                          BOH activitie such as Mise en Place, cleaning, inventory. Prepared events and catering 
+                          pastries items.</li>
+                    </ul>
+                  </li><br>
+                  <li>March 2016 - march 2017
+                    <ul>
+                      <li>Company : Tiong Bahru Bakery - Singapore</li>
+                      <li>Job Description: Undergo trainning of bakery operation that involved prepared savory sandwich, 
+                          prepared raw pastries items, shapping croissant, chocolate croissant.</li>
+                    </ul>
+                  </li>
+              </ol>  
             </div>    
+              <!--end of pastry content-->  
+   
             <!--engineer-->
             <div class="col-sm-6"id="job-engineer"> 
-                  <h6>Electrical engineer</h6>
-                   <p>June 2011 - Oct 2015</p>
-                   <p>Hewlett-Packard Pte Ltd - Singapore</p>
-                   <p>Job Description : Design electrical circuit board for Office Printer.</p>
-                   <p>June 2007 - May 2011</p>
-                   <p>Toshiba Tec Pte Ltd - Singapore</p>
-                   <p>Job Description : Design electrical circuit board for thermal printer(used for printing receipt).</p>
-                   <p>May 2006 - May 2007</p>
-                   <p>Sony EMCS (Penang) -Malaysia</p>
-                   <p>Job Description : Design electrical circuit board for HIFI Audio System.</p>
-              
-
-            </div>  
+              <strong>Electrical engineer</strong>
+              <ol>
+                <li>June 2011 - Oct 2015
+                  <ul>
+                    <li>Company : Hewlett-Packard Pte Ltd - Singapore</li>
+                    <li>Job Description : Design electrical circuit board for Officejet Printer from draft to Manufacturing
+                      .Prepare component material and perform validation function test. Perform fault troubleshooting.</li>
+                  </ul>
+                </li><br>
+                <li>June 2007 - May 2011
+                  <ul>
+                    <li>Company : Toshiba Tec Pte Ltd - Singapore</li>
+                    <li>Job Description : Design electrical circuit board for thermal printer(used for printing receipt) 
+                      from draft to Manufacturing.Prepare component material and perform validation function test. Perform 
+                      fault troubleshooting.Cross-check alternate component for cost-saving project.
+                    </li>
+                  </ul>
+                </li><br>
+                <li>May 2006 - May 2007
+                  <ul>
+                    <li>Company : Sony EMCS (Penang) -Malaysia</li>
+                    <li>Job Description : Design electrical circuit board for HIFI Audio System. Perform enhance system check on 
+                      power tranformer in speaker for current market products.
+                        
+                    </li>
+                  </ul>
+                </li>  
+              </ol>  
+            </div> 
+            <!--end of engineer content--> 
           </div>  
         </div>
+        <!--content end-->
+      </div>  
+    </section> 
+    
+    <!--Skills page-->
+    <section>
+      <div class="jumbotron" id="skills">
+        <!--content start-->
+        <div class="container" >
+          <div class="page-header">
+              <h1>Skills </h1>
+          </div>  
+          <div class="row"> 
+            <Strong>Language :</Strong>
+              <ul>
+                <li>English : Proficient</li>
+                <li>Mandarin : Fluent</li>
+                <li>Malay : Conversational </li>
+                <li>Japanese  : Basic</li>
+              </ul>  
+          </div>
+          <div class="row"> 
+            <Strong>Softskills :</Strong>
+              <ul>
+                <li>Confidence , Coordination , Curiosity , </li>
+                <li>Self Management,Optimism , Analysis , </li>
+                <li>Observation , lateral thinking,</li>
+                <li>Divergent thinking , Experimenting , </il>
+                <li>Integrity , Responsibility,</li>  
+                <il>Time-management , Planning ,Critical observation.</li>
+              </ul>
+          </div>  
+          <div class="row"> 
+            <Strong>Hardskills :</Strong>
+              <ul>
+                <li>Microsoft Office , Product Knowledge,</li>
+                <li>Cashier Skills , Programming Languages,</li>
+                <li>Web Development , UX/UI , Prototyping,</li>
+                <li>Testing , Troubleshooting , Computer Skills,</li>
+                <li>Technical Report Writing , Basic circuit Knowledge,</li>
+                <li>Numerical Skills , Creative Thinking Skills,</li>
+                <li>Attention to details , Curiosity ,creativity,</li>
+                <li>Networking Basics.</li>
+              </ul>
+          </div>  
+        </div>
+        <!--content end--> 
+      </div>
     </section> 
     <!--Achievement-->
     <section>
-        <div class="container h-100 w-100" id="achievement">
-          <h1>Achievement</h1>
+      <div class="jumbotron" id="achievement">
+        <!--content start-->
+        <div class="container" >
+          <div class="page-header">
+            <h1>Achievement</h1>
+          </div>  
           <div class="row">
             
               <ul>
@@ -383,13 +463,15 @@
 
           </div>
         </div>
-        
-    </section>   
-    
+        <!--content end-->
+      </div>  
+    </section>  
     <!--connect page-->
     <section>
-      <!--Keep In touch border-->
-        <div class="container h-100 w-100" id="connect">
+      <div class="jumbotron" id="connect">
+        <!--content start-->
+        <!--Keep In touch border-->
+        <div class="container" >
           <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
@@ -400,24 +482,25 @@
           <!--Form-->
           <div class="row">
             <div class="col-sm-2"></div>
-            <div class="col-sm-8" style="padding-top: 150px;">
+            <div class="col-sm-8" style="padding-top: 50px;">
 
-                <form action="/action_page.php"style="padding: 20px;">
-
-                  <div class="form-inline" >
+                <form action="/action_page.php"style="padding: 10px;">
+                  <!--name-->
+                  <div class="form-group" >
                     <label for="yourname">Your Name : </label>
-                    <input type="yourname" class="form-control" placeholder="name" id="yourname">
-                    
-                 
-                    <label for="email" style="padding-left: 20px;">Your Email : </label>
-                    <input type="email" class="form-control" placeholder="email" id="email">
+                    <input type="yourname" class="form-control" placeholder="John Smith" id="yourname">
+                  </div>  
+                  <!--email-->
+                  <div class="form-group" >
+                    <label for="email">Your Email : </label>
+                    <input type="email" class="form-control" placeholder="johnsmith@gmail.com" id="email">
                   </div>
-
+                  <!--Subject-->
                   <div class="form-group">
                     <label for="subject">Subject : </label>
                     <input type="subject" class="form-control" placeholder="Subject" id="subject">
                   </div>
-
+                  <!--Message-->
                   <div class="form-group">
                     <label for="message">Message : </label>
                     <textarea class="form-control" rows="5" id="message"></textarea>
@@ -428,9 +511,16 @@
               
             </div>
             <div class="col-sm-2"></div>
+          </div> 
+          <div class="row">
+            <div class="footer">
+              <b>Copyright © 2020 Yeoh Seok Khim. All Rights Reserved</b>
+            </div>  
+          </div>  
 
-          </div>
-          
+        </div>
+        <!--content end-->
+      </div>  
     </section>
   <!--Javascript-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
