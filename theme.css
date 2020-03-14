@@ -21,14 +21,10 @@ body, html {
       flex-direction :row;
       align-items: center;
       justify-content: center;
-      width: 100%;
+      width: 100vw;
       background-color: #FFFFFF;
       padding: 5px;
-      margin: 0 0 5px 0;
-      * {
-            margin: 0 10px;}
-   
-      }
+}     
 .bg-light{
          background-color: #FFFFFF!important;
 }
@@ -43,11 +39,7 @@ body, html {
 
 #home{background-color:#70aab5;
       background-size: cover;
-      height:100vh;
       position:relative;
-      bottom:15px;
-      left:15px;
-      right:15px;
       background-position: top;
       background-repeat: no-repeat;
       background-attachment:fixed;
@@ -62,32 +54,34 @@ body, html {
       background-size: cover;
       position: relative;
       height:100vh;
-      width: 80vw;
+      width:100vw;
      
 }
 /*self photo*/
 img {
       border-radius: 50%;
       background-size: cover;
+      width:200px;
+      
 
 }
 
     
 #pic{      text-align:center; 
            position: relative;
-           top:20vh;
+           
+           padding-top:80px;
            
            
 } 
 /* name */   
 #intro{
-      font-size: 5rem;
-      line-height: .5;
       color:#8f6d6b;
       text-align:left;
       position: relative;
-      top:65vh;
       left:2vw;
+      top:400px;
+
       
 }
 /* contact info */
@@ -95,14 +89,12 @@ img {
       color:#544746;
       text-align:center;
       position: relative;
-      top:20vh;
      
       
 } 
 
 /* about page*/
 #about{background-color: white;
-      height: 100vh;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -127,58 +119,57 @@ img {
        letter-spacing: 3px;
        font-family: 'Playfair Display', ;
 }
-#summary{padding:100px;
-        text-align: left;
-        text-size-adjust:auto ;
-        color:grey;
-        font-style: italic;
-        font-family: "Times New Roman", Times, serif;
+#summary{padding-top:100px;
+         padding-left: 50px;
+         text-align: left;
+         text-size-adjust:auto ;
+         color:grey;
+         font-style: italic;
+         font-family: "Times New Roman", Times, serif;
 }
 /*Education and Skills page*/
 #edu-skil{background-color: #b39e89;
-      height:100vh;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+
+}
+
+#educations{position: relative;
+            color:#ded6ca;
+            background-color:#6683b0;
+
 
 }
 /*Software*/
-#educations{position: relative;
-            top:50px;
-            color:#ded6ca;
-
-
-}
-.diploma-btn{color: #b85a12;
+.software-btn{color: #ded6ca;
              border-style: solid;
-             background-color: transparent;
+             background-color: #614224;
              border-color:  #614224;
 
 }
 
 /*pastry*/
-.pastry-btn{color: #b85a12;
+.pastry-btn{color: #ded6ca;
             border-style: solid;
-            background-color: transparent;
+            background-color: #614224;
             border-color:  #614224;
 
 }
 
 /*bachelor*/
-.bachelor-btn{color:#b85a12;
+.engineer-btn{color:#ded6ca;
           border-style: solid;
-          background-color: transparent;
+          background-color: #614224;
           border-color:  #614224;
 
 }
 
 /*skills column*/
 #skills{ position:relative;
-         padding-top:50px;
-         padding-left: 50px;
-         padding-right:50px;
          color:#ded6ca;
+         background-color:#6683b0;
 
 
 
@@ -186,7 +177,6 @@ img {
 }
 #language{ color:#7a420a;
            border-style: solid;
-           background-color: transparent;
            border-color:  #ded6ca;
            background-color:#ded6ca;
            position:relative;
@@ -194,20 +184,16 @@ img {
 
 #softskills{ color:#7a420a;
            border-style: solid;
-           background-color: transparent;
            border-color:  #ded6ca;
            background-color:#ded6ca;
            position:relative;
-           top:3vh;
 }
 
 #hardskills{ color:#7a420a;
             border-style: solid;
-            background-color: transparent;
             border-color:  #ded6ca;
             background-color:#ded6ca;
             position:relative;
-            top:6vh;
 }
 
 /*modal for education details*/
@@ -226,18 +212,42 @@ img {
       display: block;
       
 }
+/*Experience page*/
+#experience{background-color: white;
+      
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 
+}
+#job-pastry{color:#7a420a;
+      border-style: solid;
+      background-color: transparent;
+      border-color:  #566987;
+      position:relative;
+}
+
+
+#job-engineer{color:#7a420a;
+      border-style: solid;
+      background-color: transparent;
+      border-color:#566987;
+      position:relative;
+}
  
- 
 
-
-
+/*Achievement page*/
+#achievement{background-color: orange;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+}
 
 
 
 /* Connect page*/
 #connect{background-image: url("bg-photos/connect-bg.jpg");
-         height:100vh;  
          background-position: center center;
          background-repeat: no-repeat;
          background-attachment: fixed;
@@ -250,12 +260,13 @@ img {
       border-color:#ad9f87;
       text-align: center;
       text-size-adjust:auto ;
+      position: relative;
+      top:50px;
       height:10vh;
       width:80vw;
       color: rgb(46, 88, 46);
       letter-spacing: 3px;
       font-family: 'Playfair Display', ;
-      font-size: 4rem;
       background-image: url("bg-photos/connect-banner-bg.jpg");
 }
 form{ 
