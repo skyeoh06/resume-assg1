@@ -43,10 +43,9 @@ body, html {
       background-position: top;
       background-repeat: no-repeat;
       background-attachment:fixed;
-     
-
-
+   
  } 
+
  /*side -image*/
  #self{background-image: url("bg-photos/snowflakes.jpg");
       background-position: center;
@@ -57,40 +56,40 @@ body, html {
       width:100vw;
      
 }
+
 /*self photo*/
 img {
       border-radius: 50%;
       background-size: cover;
       width:200px;
       
-
 }
 
     
-#pic{      text-align:center; 
-           position: relative;
-           
-           padding-top:80px;
+#pic{ text-align:center; 
+      position: relative;
+      padding-top:80px;
            
            
 } 
+
 /* name */   
 #intro{
       color:#8f6d6b;
       text-align:left;
       position: relative;
       left:2vw;
-      top:400px;
+      top:75vh;
 
       
 }
+
 /* contact info */
 #info{    
       color:#544746;
       text-align:center;
       position: relative;
-     
-      
+    
 } 
 
 /* about page*/
@@ -98,9 +97,8 @@ img {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      text-align: center;
-      
-      }
+      text-align: center; 
+}
         
          
 #flower{background-image: url("bg-photos/flower_bloom_about.jpg");
@@ -110,6 +108,7 @@ img {
           padding:100px;
 
 }
+
 #banner{
        border-width: 15px;
        border-style: solid;
@@ -119,81 +118,61 @@ img {
        letter-spacing: 3px;
        font-family: 'Playfair Display', ;
 }
-#summary{padding-top:100px;
-         padding-left: 50px;
+
+#summary{padding:100px;
          text-align: left;
          text-size-adjust:auto ;
          color:grey;
          font-style: italic;
          font-family: "Times New Roman", Times, serif;
 }
+
 /*Education and Skills page*/
-#edu-skil{background-color: #b39e89;
+#edu-skil{background-image: url("bg-photos/education-bg.jpg");
           background-position: center center;
           background-repeat: no-repeat;
           background-attachment: fixed;
           background-size: cover;
+          
 
 }
 
 #educations{position: relative;
-            color:#ded6ca;
-            background-color:#6683b0;
+            color:#0c3d1a;
+            
 
 
 }
+
 /*Software*/
-.software-btn{color: #ded6ca;
+.software-btn{color: #0c3d1a;
              border-style: solid;
-             background-color: #614224;
-             border-color:  #614224;
+             background-color: #cc916e;
+             border-color:  #cc916e;
 
 }
 
 /*pastry*/
-.pastry-btn{color: #ded6ca;
+.pastry-btn{color: #0c3d1a;
             border-style: solid;
-            background-color: #614224;
-            border-color:  #614224;
+            background-color:#cc916e;
+            border-color:  #cc916e;
 
 }
 
-/*bachelor*/
-.engineer-btn{color:#ded6ca;
-          border-style: solid;
-          background-color: #614224;
-          border-color:  #614224;
+/*engineer*/
+.engineer-btn{color:#0c3d1a;
+              border-style: solid;
+              background-color: #cc916e;
+              border-color:  #cc916e;
 
 }
 
 /*skills column*/
-#skills{ position:relative;
-         color:#ded6ca;
-         background-color:#6683b0;
-
-
-
-
-}
-#language{ color:#7a420a;
-           border-style: solid;
-           border-color:  #ded6ca;
-           background-color:#ded6ca;
-           position:relative;
-}
-
-#softskills{ color:#7a420a;
-           border-style: solid;
-           border-color:  #ded6ca;
-           background-color:#ded6ca;
-           position:relative;
-}
-
-#hardskills{ color:#7a420a;
-            border-style: solid;
-            border-color:  #ded6ca;
-            background-color:#ded6ca;
-            position:relative;
+#skills{ 
+         position:relative;
+         color:#0c3d1a;
+         
 }
 
 /*modal for education details*/
@@ -212,6 +191,7 @@ img {
       display: block;
       
 }
+
 /*Experience page*/
 #experience{background-color: white;
       
@@ -220,30 +200,27 @@ img {
       background-size: cover;
 
 }
+
 #job-pastry{color:#7a420a;
-      border-style: solid;
-      background-color: transparent;
-      border-color:  #566987;
-      position:relative;
+            position:relative;
+            padding:10px;
 }
 
 
 #job-engineer{color:#7a420a;
-      border-style: solid;
-      background-color: transparent;
-      border-color:#566987;
-      position:relative;
+              position:relative;
 }
  
 
 /*Achievement page*/
-#achievement{background-color: orange;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      text-align: center;
+#achievement{background-image: url("bg-photos/employment-bg.jpg");
+             background-position: center center;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-size: cover;
+      
+     
 }
-
 
 
 /* Connect page*/
@@ -255,6 +232,7 @@ img {
          
         
 }
+
 #contact{border-width: 8px;
       border-style: solid;
       border-color:#ad9f87;
@@ -263,21 +241,21 @@ img {
       position: relative;
       top:50px;
       height:10vh;
-      width:80vw;
       color: rgb(46, 88, 46);
       letter-spacing: 3px;
       font-family: 'Playfair Display', ;
       background-image: url("bg-photos/connect-banner-bg.jpg");
 }
+
 form{ 
       font-family: 'Playfair Display', ;
-      width:80vw
       border-width: 5px;
       border-style: dotted;
       border-color: #ad9f87;
       color:rgb(46, 88, 46);
       background-color: rgb(255, 255, 255,0.8);
 }
+
 .btn{display: inline-block;
       font-weight: 400;
       text-align:center;
@@ -288,6 +266,7 @@ form{
       line-height: 1.5;
       border-radius: .25rem;
 }
+
 .btn-form{
       color:beige;
       background-color: #ad9f87;}
