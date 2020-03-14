@@ -1,15 +1,4 @@
-*, *:before, *:after {
-      
-      -webkit-box-sizing: inherit;
-      -moz-box-sizing: inherit;
-      box-sizing: inherit;
-}
-html {
-      
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-}
+
 body, html {
       height: 100%;
       margin: 0;
@@ -37,41 +26,14 @@ body, html {
 
 /* home page */
 
-#home{background-color:#70aab5;
-      background-size: cover;
-      position:relative;
-      background-position: top;
+#home{background-image: url("bg-photos/snowflakes.jpg");
+      background-position: center center;
       background-repeat: no-repeat;
-      background-attachment:fixed;
+      background-attachment: fixed;
+      background-size: cover;
    
- } 
-
- /*side -image*/
- #self{background-image: url("bg-photos/snowflakes.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-      height:100vh;
-      width:100vw;
-     
-}
-
-/*self photo*/
-img {
-      border-radius: 50%;
-      background-size: cover;
-      width:200px;
-      
-}
-
-    
-#pic{ text-align:center; 
-      position: relative;
-      padding-top:80px;
-           
-           
 } 
+
 
 /* name */   
 #intro{
@@ -79,16 +41,39 @@ img {
       text-align:left;
       position: relative;
       left:2vw;
-      top:75vh;
+      top:55vh;
+}
+/*side -image*/
+#self{background-color:#70aab5;
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width:100vw;
+     
+     
+}
 
+/*self photo*/
+img {
+      border-radius: 50%;
+      background-size: cover;
+      width:11vw;
       
 }
+
+    
+#pic{ text-align:center; 
+      position: relative;
+      padding-top:15vh;
+           
+           
+} 
 
 /* contact info */
 #info{    
       color:#544746;
       text-align:center;
-      position: relative;
+      
     
 } 
 
@@ -102,8 +87,8 @@ img {
         
          
 #flower{background-image: url("bg-photos/flower_bloom_about.jpg");
-          margin-top:100px;
-          margin-bottom:100px;
+          margin-top:20vh;
+          margin-bottom:20vh;
           background-size: cover;
           padding:100px;
 
@@ -119,7 +104,7 @@ img {
        font-family: 'Playfair Display', ;
 }
 
-#summary{padding:100px;
+#summary{padding-top:100px;
          text-align: left;
          text-size-adjust:auto ;
          color:grey;
@@ -127,22 +112,16 @@ img {
          font-family: "Times New Roman", Times, serif;
 }
 
-/*Education and Skills page*/
-#edu-skil{background-image: url("bg-photos/education-bg.jpg");
+/*Education page*/
+#education{background-image: url("bg-photos/education-bg.jpg");
           background-position: center center;
           background-repeat: no-repeat;
           background-attachment: fixed;
           background-size: cover;
-          
+          color:#0c3d1a;
 
 }
 
-#educations{position: relative;
-            color:#0c3d1a;
-            
-
-
-}
 
 /*Software*/
 .software-btn{color: #0c3d1a;
@@ -169,9 +148,11 @@ img {
 }
 
 /*skills column*/
-#skills{ 
-         position:relative;
-         color:#0c3d1a;
+#skills{ background-image: url("bg-photos/skills-bg.jpg");background-position: center center;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+         color:#e0b9af;
          
 }
 
@@ -194,21 +175,13 @@ img {
 
 /*Experience page*/
 #experience{background-color: white;
-      
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+            color:teal;
 
 }
 
-#job-pastry{color:#7a420a;
-            position:relative;
-            padding:10px;
-}
+#job-pastry, #job-engineer{color:#7a420a;
 
 
-#job-engineer{color:#7a420a;
-              position:relative;
 }
  
 
@@ -218,6 +191,7 @@ img {
              background-repeat: no-repeat;
              background-attachment: fixed;
              background-size: cover;
+             color:#f2a005;
       
      
 }
@@ -229,7 +203,6 @@ img {
          background-repeat: no-repeat;
          background-attachment: fixed;
          background-size: cover;
-         
         
 }
 
@@ -239,18 +212,18 @@ img {
       text-align: center;
       text-size-adjust:auto ;
       position: relative;
-      top:50px;
+      top:25px;
       height:10vh;
       color: rgb(46, 88, 46);
       letter-spacing: 3px;
       font-family: 'Playfair Display', ;
       background-image: url("bg-photos/connect-banner-bg.jpg");
 }
-
+/*form */
 form{ 
       font-family: 'Playfair Display', ;
       border-width: 5px;
-      border-style: dotted;
+      border-style: solid;
       border-color: #ad9f87;
       color:rgb(46, 88, 46);
       background-color: rgb(255, 255, 255,0.8);
@@ -269,4 +242,13 @@ form{
 
 .btn-form{
       color:beige;
-      background-color: #ad9f87;}
+      background-color: #ad9f87;
+}
+/*footer*/
+.footer {
+      left: 0;
+      bottom: 0;
+      width:100vw;
+      color: black;
+      text-align: center;
+   }
