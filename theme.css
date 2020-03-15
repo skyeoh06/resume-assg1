@@ -6,76 +6,65 @@ body, html {
 
 
 /*navigation css*/
-.navbar-nav{display: flex;
-      flex-direction :row;
-      align-items: center;
-      justify-content: center;
-      width: 100vw;
-      background-color: #FFFFFF;
-      padding: 5px;
-}     
 .bg-light{
-         background-color: #FFFFFF!important;
+         background-color: white!important;
+}   
+
+.navbar{justify-content: center!important;
+         
+
 }
 
-.nav-link{color: grey;}
+
+.nav-link{color: grey;
+}
 
 .nav-item{padding-left:50px;
          
-         }
+}
 
 /* home page */
-
-#home{background-image: url("bg-photos/snowflakes.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-   
-} 
-
-
-/* name */   
-#intro{
-      color:#8f6d6b;
-      text-align:left;
-      position: relative;
-      left:2vw;
-      top:55vh;
-}
-/*side -image*/
-#self{background-color:#70aab5;
-      background-position: right;
+#home{background-color: white;
+      background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       width:100vw;
-     
-     
+
 }
 
-/*self photo*/
-img {
-      border-radius: 50%;
+
+/*profile column*/
+#profile{background-color:#70aab5;
+         background-position: right;
+         background-repeat: no-repeat;
+         background-size: cover;
+         height:100vh;
+         position: relative;
+         text-align: center;
+}
+
+
+/*profile info*/
+#profile-info{position: relative;
+              top:3vh;
+              color:#8f6d6b;
+              text-align:center;
+
+}
+
+/*self column*/
+#self{background-image: url("bg-photos/snowflakes.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
       background-size: cover;
-      width:11vw;
-      
-}
-
-    
-#pic{ text-align:center; 
-      position: relative;
-      padding-top:15vh;
-           
-           
-} 
-
-/* contact info */
-#info{    
       color:#544746;
       text-align:center;
+      height:100vh;
+      position: relative;
       
-    
 } 
+      
+  
 
 /* about page*/
 #about{background-color: white;
@@ -104,7 +93,8 @@ img {
        font-family: 'Playfair Display', ;
 }
 
-#summary{padding-top:100px;
+#summary{padding-top:20vh;
+         padding-left:50px;
          text-align: left;
          text-size-adjust:auto ;
          color:grey;
@@ -246,6 +236,7 @@ form{
 }
 /*footer*/
 .footer {
+      top:2vh;
       left: 0;
       bottom: 0;
       width:100vw;
