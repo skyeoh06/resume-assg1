@@ -4,17 +4,19 @@ body, html {
       margin: 0;
     }
 
-
 /*navigation css*/
 .bg-light{
          background-color: white!important;
 }   
 
 .navbar{justify-content: center!important;
-         
-
 }
 
+.navbar-nav.navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+}
 
 .nav-link{color: grey;
 }
@@ -22,6 +24,7 @@ body, html {
 .nav-item{padding-left:50px;
          
 }
+
 
 /* home page */
 #home{background-color: white;
