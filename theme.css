@@ -29,7 +29,6 @@ body, html {
       background-repeat: no-repeat;
       background-size: cover;
       width:100vw;
-
 }
 
 
@@ -46,19 +45,18 @@ body, html {
 
 /*profile info*/
 #profile-info{position: relative;
-              top:3vh;
               color:#8f6d6b;
-              text-align:center;
+              text-align:left;
 
 }
 
 /*self column*/
 #self{background-image: url("bg-photos/snowflakes.jpg");
-      background-position: center;
+      background-position: left;
       background-repeat: no-repeat;
       background-size: cover;
-      color:#544746;
-      text-align:center;
+      color:#a89882;
+      text-align:left;
       height:100vh;
       position: relative;
       
@@ -79,6 +77,8 @@ body, html {
           margin-top:20vh;
           margin-bottom:20vh;
           background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
           padding:100px;
 
 }
@@ -173,7 +173,7 @@ body, html {
 
 
 }
- 
+
 
 /*Achievement page*/
 #achievement{background-image: url("bg-photos/employment-bg.jpg");
